@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main ( )
+{
+ int a, p;
+printf("Iveskite krastines ilgi\n");
+scanf("%d",&a);
+p=a*a;
+printf("Kvadrato plotas lygus %d",p);
+return 0;
+}
